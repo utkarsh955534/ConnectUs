@@ -5,7 +5,7 @@ import axios from "axios";
 export const AuthContext = createContext(null);
 
 const client = axios.create({
-  baseURL: "http://localhost:8000/api/v1/users"
+  baseURL: "https://connectus-backend-rq0m.onrender.com/api/v1/users"
 });
 
 export const AuthProvider = ({ children }) => {
